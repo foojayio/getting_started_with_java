@@ -1,7 +1,7 @@
 public class EnumSwitch {
     public static void main (String[] args) {
         // Define value based on an enum
-        TEST_OPTIONS option = TEST_OPTIONS.TYPE_2;
+        TestOption option = TestOption.TYPE_5;
 
         // Compare the value with the available options
         switch(option) {
@@ -19,7 +19,7 @@ public class EnumSwitch {
         }
     }
 
-    enum TEST_OPTIONS {
+    enum TestOption {
         TYPE_1, TYPE_2, TYPE_3, TYPE_4, TYPE_5, UNKNOWN;
     }
 }
